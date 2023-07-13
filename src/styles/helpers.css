@@ -1,0 +1,15 @@
+.font-manrope {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+.contact__bg-img {
+  background: url('/public/assets/images/contact.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.footer__bg-img {
+  background: url('/public//assets/images/footer.png'),
+    black -20.256px -302.592px / 103.542% 301.248% no-repeat;
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
