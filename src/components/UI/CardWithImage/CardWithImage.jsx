@@ -5,7 +5,7 @@ const CardWithImage = (props) => {
   const { headerCardProps, buttonProps, image } = props;
 
   return (
-    <div className=' bg-white flex rounded-[32px] relative gap-2 overflow-hidden'>
+    <div className=' bg-white lg:flex rounded-[32px] relative gap-2 overflow-hidden'>
       <div className='flex-1 py-11 px-5 flex gap-5 flex-col'>
         <HeaderCard
           title={headerCardProps.title}
@@ -19,8 +19,8 @@ const CardWithImage = (props) => {
           ))}
         </div>
       </div>
-      <div className='flex-1 relative'>
-        <div className='absolute right-0 top-0 bottom-0'>
+      <div className='flex-1 lg:relative'>
+        <div className='lg:absolute right-0 top-0 bottom-0'>
           <img src={image} className='h-[100%]' alt='mission' />
         </div>
       </div>
@@ -30,7 +30,7 @@ const CardWithImage = (props) => {
 
 CardWithImage.propTypes = {
   headerCardProps: PropTypes.object,
-  buttonProps: PropTypes.object,
+  buttonProps: PropTypes.array,
   image: PropTypes.string,
 };
 

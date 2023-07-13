@@ -12,6 +12,7 @@ import HeaderCard from './UI/HeaderCard/HeaderCard';
 import FeaturesCard from './Landing/Features/FeaturesCard';
 import CardWithImage from './UI/CardWithImage/CardWithImage';
 import BlogsCard from './Landing/Blogs/BlogsCard';
+import Hamburger from './UI/Hamburger/Hamburger';
 
 export {
   Hero,
@@ -28,4 +29,5 @@ export {
   FeaturesCard,
   CardWithImage,
   BlogsCard,
+  Hamburger,
 };

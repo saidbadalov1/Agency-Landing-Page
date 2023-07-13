@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='footer__bg-img pt-[70px] pb-[56px]'>
       <div className='container mx-auto px-5 text-white'>
-        <div className='flex justify-between items-center border-t border-b py-7 border-solid  border-white border-opacity-50'>
+        <div className='flex sm:flex-row flex-col justify-between gap-4 sm:items-center border-t border-b py-7 border-solid  border-white border-opacity-50'>
           <Link to='/' className='flex flex-row gap-1'>
             <img src={'/assets/logo/logo.svg'} alt='logo' />
             <span className='font-[500] '>FutureSphere</span>

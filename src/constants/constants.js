@@ -75,7 +75,18 @@ export const clientsSlider = [
 export const sliderSettings = {
   infinite: true,
   speed: 500,
-  slidesToShow: 4,
+  slidesToShow: 5,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScrol: 3,
+        infinite: true,
+        dots: true,
+      },
+    },
+  ],
   slidesToScroll: 1,
 };
 

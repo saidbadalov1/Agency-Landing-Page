@@ -20,13 +20,13 @@ const Hero = () => {
       <section className='mt-12'>
         <img
           src={'/assets/images/hero-image.jpeg'}
-          className='rounded-[250px] mx-auto w-full max-h-[388px] object-cover'
+          className='sm:rounded-[250px] rounded-[16px] mx-auto w-full sm:max-h-[388px] max-h-[250px] object-cover'
           alt='hero'
         />
       </section>
 
-      <section className='mt-12 px-14 '>
-        <div className='flex text-center border border-solid border-border py-4 bg-white rounded-[16px]'>
+      <section className='mt-12 sm:px-14'>
+        <div className='flex sm:flex-row flex-col sm:gap-0 gap-8 text-center border border-solid border-border py-4 bg-white rounded-[16px]'>
           {statistics.map((card) => (
             <StatisticsCard key={card.id} card={card}></StatisticsCard>
           ))}

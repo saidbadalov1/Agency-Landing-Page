@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div className='py-12 flex flex-col gap-7'>
       <HeaderCard title='Blogs' header='From our Latest Blogs' />
-      <div className='grid grid-cols-3 place-items-center gap-7'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-7'>
         {blogs.map((blog) => (
           <BlogsCard
             key={blog.id}
