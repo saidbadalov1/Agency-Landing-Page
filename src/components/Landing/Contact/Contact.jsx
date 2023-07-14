@@ -3,7 +3,7 @@ import { Button } from '../../index';
 
 const Contact = () => {
   return (
-    <div className='py-12 '>
+    <div className='py-12'>
       <div className='contact__bg-img rounded-[24px] py-[110px] sm:px-0 px-[100px] flex justify-center items-center'>
         <div className='flex flex-col gap-12 text-white justify-center items-center'>
           <Mail />

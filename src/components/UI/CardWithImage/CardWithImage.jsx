@@ -21,7 +21,11 @@ const CardWithImage = (props) => {
       </div>
       <div className='flex-1 lg:relative'>
         <div className='lg:absolute right-0 top-0 bottom-0'>
-          <img src={image} className='h-[100%]' alt='mission' />
+          <img
+            src={image}
+            className='sm:h-[100%] max-h-[260px] sm:max-h-[100%] w-[100%]'
+            alt='mission'
+          />
         </div>
       </div>
     </div>
